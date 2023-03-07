@@ -30,10 +30,14 @@ The [quantile function][quantile-function] for a [binomial][binomial-distributio
 
 <!-- <equation class="equation" label="eq:binomial_quantile_function" align="center" raw="F(x-1;n,p) < r \le F(x;n,p)" alt="Quantile value for a binomial distribution."> -->
 
-<div class="equation" align="center" data-raw-text="F(x-1;n,p) &lt; r \le F(x;n,p)" data-equation="eq:binomial_quantile_function">
+```math
+F(x-1;n,p) < r \le F(x;n,p)
+```
+
+<!-- <div class="equation" align="center" data-raw-text="F(x-1;n,p) &lt; r \le F(x;n,p)" data-equation="eq:binomial_quantile_function">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/binomial/quantile/docs/img/equation_binomial_quantile_function.svg" alt="Quantile value for a binomial distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -232,7 +236,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
