@@ -65,13 +65,13 @@ holds, where `F` is the cumulative distribution function (CDF) of a binomial ran
 ## Usage
 
 ```javascript
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-quantile@deno/mod.js';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-quantile@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-quantile@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-quantile@v0.1.0-deno/mod.js';
 ```
 
 #### quantile( r, n, p )
@@ -155,7 +155,7 @@ y = myquantile( 0.9 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-quantile@deno/mod.js';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-quantile@v0.1.0-deno/mod.js';
 
 var r;
 var i;
