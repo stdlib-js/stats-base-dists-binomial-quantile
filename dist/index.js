@@ -1,0 +1,11 @@
+"use strict";var n=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var o=n(function($,d){
+var S=require('@stdlib/stats-base-dists-binomial-cdf/dist');function T(r,e,i,u){for(;r!==0&&S(r-1,i,u)>=e;)r-=1;return r}d.exports=T
+});var g=n(function(p,l){
+var O=require('@stdlib/stats-base-dists-binomial-cdf/dist');function b(r,e,i,u){for(r+=1;O(r,i,u)<e;)r+=1;return r}l.exports=b
+});var y=n(function(rr,R){
+var j=require('@stdlib/math-base-assert-is-nonnegative-integer/dist'),m=require('@stdlib/math-base-special-erfcinv/dist'),N=require('@stdlib/math-base-assert-is-nan/dist'),k=require('@stdlib/math-base-special-round/dist'),z=require('@stdlib/math-base-special-sqrt/dist'),A=require('@stdlib/stats-base-dists-binomial-cdf/dist'),I=require('@stdlib/constants-float64-sqrt-two/dist'),B=require('@stdlib/constants-float64-pinf/dist'),C=o(),D=g();function E(r,e,i){var u,v,f,a,s,q,t;return N(r)||N(e)||N(i)||r<0||r>1||i<0||i>1||!j(e)||e===B?NaN:r===1||i===1?e:r===0||i===0||e===0?0:(s=e*i,f=z(e*i*(1-i)),u=1/f,r<.5?t=-m(2*r)*I:t=m(2*(1-r))*I,q=t*t,a=t+u*(q-1)/6,v=k(s+f*a),A(v,e,i)>=r?C(v,r,e,i):D(v,r,e,i))}R.exports=E
+});var P=n(function(er,w){
+var G=require('@stdlib/math-base-assert-is-nonnegative-integer/dist'),H=require('@stdlib/utils-constant-function/dist'),x=require('@stdlib/stats-base-dists-degenerate-quantile/dist').factory,F=require('@stdlib/math-base-special-erfcinv/dist'),h=require('@stdlib/math-base-assert-is-nan/dist'),J=require('@stdlib/math-base-special-round/dist'),K=require('@stdlib/math-base-special-sqrt/dist'),M=require('@stdlib/stats-base-dists-binomial-cdf/dist'),L=require('@stdlib/constants-float64-sqrt-two/dist'),U=require('@stdlib/constants-float64-pinf/dist'),V=o(),W=g();function X(r,e){var i,u,v;if(h(r)||h(e)||!G(r)||r===U||e<0||e>1)return H(NaN);if(e===0||r===0)return x(0);if(e===1)return x(r);return v=r*e,u=K(r*e*(1-e)),i=1/u,f;function f(a){var s,q,t,c;return h(a)||a<0||a>1?NaN:a===0?0:a===1?r:(a<.5?c=-F(2*a)*L:c=F(2*(1-a))*L,t=c*c,q=c+i*(t-1)/6,s=J(v+u*q),M(s,r,e)>=a?V(s,a,r,e):W(s,a,r,e))}}w.exports=X
+});var Y=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),Q=y(),Z=P();Y(Q,"factory",Z);module.exports=Q;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
