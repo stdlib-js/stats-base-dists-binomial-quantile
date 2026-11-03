@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-03)
 
 <section class="features">
 
@@ -34,6 +34,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
+-   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
 -   [`01a20c0`](https://github.com/stdlib-js/stdlib/commit/01a20c0a25103830414ec613971c0088fc65a2b6) - **style:** remove extraneous whitespace [(#13654)](https://github.com/stdlib-js/stdlib/pull/13654) _(by Philipp Burckhardt)_
 -   [`620be0b`](https://github.com/stdlib-js/stdlib/commit/620be0baebda152a786918d03a5d00994aed26b2) - **chore:** clean-up [(#13643)](https://github.com/stdlib-js/stdlib/pull/13643) _(by Philipp Burckhardt, Athan Reines)_
 -   [`fd3be1e`](https://github.com/stdlib-js/stdlib/commit/fd3be1e9ce03cd0f58fb6ee9d775a9c801ace05f) - **feat:** add C implementation for `stats/base/dists/binomial/quantile` [(#4415)](https://github.com/stdlib-js/stdlib/pull/4415) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
